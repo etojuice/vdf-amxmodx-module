@@ -1,0 +1,6 @@
+"Barney"
+{
+	"new_round" "sound/barney/ba_attack1"
+	"end_round" "sound/barney/ba_later"
+	"client_connect" "sound/barney/haybuddy"
+}

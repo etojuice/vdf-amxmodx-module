@@ -1,0 +1,190 @@
+"Mon"
+{
+	"Morning"
+	{
+		"de_airstrip"
+		"cs_havana"
+		"de_chateau"
+		"de_cbble"
+	}
+	"Day"
+	{
+		"as_oilrig"
+		"cs_siege"
+	}
+	"Later"
+	{
+		"cs_assault"
+		"cs_office"
+		"cs_italy"
+		"cs_backalley"
+	}
+	"Any"
+	{
+		"de_aztec"
+		"de_dust"
+	}
+}
+"Tue"
+{
+	"Morning"
+	{
+		"de_airstrip"
+		"cs_havana"
+		"de_chateau"
+		"de_cbble"
+	}
+	"Day"
+	{
+		"as_oilrig"
+		"cs_siege"
+	}
+	"Later"
+	{
+		"cs_assault"
+		"cs_office"
+		"cs_italy"
+		"cs_backalley"
+	}
+	"Any"
+	{
+		"de_aztec"
+		"de_dust"
+	}
+}
+"Wed"
+{
+	"Morning"
+	{
+		"de_airstrip"
+		"cs_havana"
+		"de_chateau"
+		"de_cbble"
+	}
+	"Day"
+	{
+		"as_oilrig"
+		"cs_siege"
+	}
+	"Later"
+	{
+		"cs_assault"
+		"cs_office"
+		"cs_italy"
+		"cs_backalley"
+	}
+	"Any"
+	{
+		"de_aztec"
+		"de_dust"
+	}
+}
+"Thu"
+{
+	"Morning"
+	{
+		"de_airstrip"
+		"cs_havana"
+		"de_chateau"
+		"de_cbble"
+	}
+	"Day"
+	{
+		"as_oilrig"
+		"cs_siege"
+	}
+	"Later"
+	{
+		"cs_assault"
+		"cs_office"
+		"cs_italy"
+		"cs_backalley"
+	}
+	"Any"
+	{
+		"de_aztec"
+		"de_dust"
+	}
+}
+"Fri"
+{
+	"Morning"
+	{
+		"de_airstrip"
+		"cs_havana"
+		"de_chateau"
+		"de_cbble"
+	}
+	"Day"
+	{
+		"as_oilrig"
+		"cs_siege"
+	}
+	"Later"
+	{
+		"cs_assault"
+		"cs_office"
+		"cs_italy"
+		"cs_backalley"
+	}
+	"Any"
+	{
+		"de_aztec"
+		"de_dust"
+	}
+}
+"Sat"
+{
+	"Morning"
+	{
+		"de_airstrip"
+		"cs_havana"
+		"de_chateau"
+		"de_cbble"
+	}
+	"Day"
+	{
+		"as_oilrig"
+		"cs_siege"
+	}
+	"Later"
+	{
+		"cs_assault"
+		"cs_office"
+		"cs_italy"
+		"cs_backalley"
+	}
+	"Any"
+	{
+		"de_aztec"
+		"de_dust"
+	}
+}
+"Sun"
+{
+	"Morning"
+	{
+		"de_airstrip"
+		"cs_havana"
+		"de_chateau"
+		"de_cbble"
+	}
+	"Day"
+	{
+		"as_oilrig"
+		"cs_siege"
+	}
+	"Later"
+	{
+		"cs_assault"
+		"cs_office"
+		"cs_italy"
+		"cs_backalley"
+	}
+	"Any"
+	{
+		"de_aztec"
+		"de_dust"
+		"de_dust2"
+	}
+}

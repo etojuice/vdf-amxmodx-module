@@ -1,0 +1,23 @@
+// The last node has a value which's the command to be executed
+// This won't work with commandmenu.txt (that's not a vdf file)
+
+"Say Menu"
+{
+	"Taunts"
+	{
+		"Shit" "amx_csay Shit happens!"
+		"Kill me" "amx_csay Kill me!"
+	}
+	"Warnings"
+	{
+		"Closing" "amx_csay This server is closing."
+		"Cheating" "amx_csay Don't cheat."
+	}
+	"Random"
+	{
+		"Red" "amx_csay I like red."
+	}
+	"Main Menu" "amx_vdfmenu"
+}
+
+

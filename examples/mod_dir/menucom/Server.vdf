@@ -1,0 +1,32 @@
+// The last node has a value which's the command to be executed
+// This won't work with commandmenu.txt (that's not a vdf file)
+
+"Server Menu"
+{
+	"Pause"
+	{
+		"Pausable ON" "pausable 1"
+		"Pausable OFF"  "pausable 0"
+	}
+	"Max Speed"
+	{
+		"Max Speed 320" "sv_maxspeed 320"
+		"Max Speed 300" "sv_maxspeed 300"
+		"Max Speed 280" "sv_maxspeed 280"
+	}
+	"Cheats"
+	{
+		"Cheats ON" "sv_cheats on"
+		"Cheats OFF" "sv_cheats off"
+	}
+	"Time Limit"
+	{
+		"time limit 10" "mp_timelimit 10"
+		"time limit 20" "mp_timelimit 20"
+		"time limit 30" "mp_timelimit 30"
+		"time limit 40" "mp_timelimit 40"
+	}		
+	"Main Menu" "amx_vdfmenu"
+}
+
+

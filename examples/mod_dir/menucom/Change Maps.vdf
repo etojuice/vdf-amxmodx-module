@@ -1,0 +1,29 @@
+// The last node has a value which's the command to be executed
+// This won't work with commandmenu.txt (that's not a vdf file)
+
+"Change Map Menu" // pretty useless, huh?
+{
+	"Defuse"
+	{
+		"de_aztec" "changelevel de_aztec"
+		"de_dust"  "changelevel de_dust2"
+		"Defuse and rescue"
+		{
+			"csde_what" "changelevel csde_what"
+			"csde_ever"	"changelevel csde_ever"
+		}				
+	}
+	"Rescue"
+	{
+		"cs_assault" "changelevel cs_assault"
+		"cs_italy"   "changelevel cs_italy"
+	}
+	"Aim"
+	{
+		"aim_map"  "changelevel aim_map"
+		"aim_dust" "changelevel aim_dust"
+	}
+	"main menu" "amx_vdfmenu"
+}
+
+

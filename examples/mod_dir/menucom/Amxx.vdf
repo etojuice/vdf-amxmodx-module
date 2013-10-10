@@ -1,0 +1,28 @@
+// The last node has a value which's the command to be executed
+// This won't work with commandmenu.txt (that's not a vdf file)
+
+"Amxx Menu" // crap example
+{
+	"Vote Delay"
+	{
+		"Vote Delay 5" "amx_vote_delay 5"
+		"Vote Delay 10" "amx_vote_delay 10"
+		"Vote Delay 15" "amx_vote_delay 15"
+		"Vote Delay 20" "amx_vote_delay 20"
+	}
+	"Vote Time"
+	{
+		"Vote time 10" "amx_vote_time 10"
+		"Vote time 20" "amx_vote_time 20"
+		"Vote time 20" "amx_vote_time 30"
+	}
+	"Debug Mode"
+	{
+		"Debug Mode ON" "amx_debug 1"
+		"Debug Mode OFF" "amx_debug 0"
+	}
+	
+	"Main Menu" "amx_vdfmenu"
+}
+
+
