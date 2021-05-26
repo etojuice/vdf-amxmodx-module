@@ -854,21 +854,16 @@ static cell AMX_NATIVE_CALL vdf_get_node_value_vector(AMX *amx, cell *params)
 //vdf_set_node_value_num(VdfNode:node, value)
 static cell AMX_NATIVE_CALL vdf_set_node_value_num(AMX *amx, cell *params)
 {
-	VDFNode *node;
-	char	stNum[22];
-	int		num;
+	char value[12];
+	VDFNode* node;
 
-	*stNum = '\0';
 	node = reinterpret_cast<VDFNode*>(params[1]);
-	num = (int)params[2];
-	
-	if(node == NULL)
-		return 0;
-	
-	scanf(stNum, "%d", num);
 
-	if(strlen(stNum))
-		VDFTree::SetKeyPair(node, NULL, stNum);
+	if (node == NULL)
+		return 0;
+
+	_snprintf(value, 12, "%d", params[2]);
+	VDFTree::SetKeyPair(node, NULL, value);
 
 	return 1;
 }
