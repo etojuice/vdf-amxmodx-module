@@ -296,13 +296,11 @@ static cell AMX_NATIVE_CALL vdf_save(AMX *amx, cell *params)
 	VDFTree*	vdfTree;
 	bool		ret;	
 	VDFTreeFile	fileHandler;
-	VDFEnum		*container;
 
 	char		*saveAs = g_fn_BuildPathname("%s", MF_GetAmxString(amx, params[2], 0, &len));
 	
 	vdfTree = reinterpret_cast<VDFTree*>(params[1]);
 	ret	= 0;	
-	container = vdfCollection.GetContainerById(vdfTree->treeId);
 
 	if(vdfTree == NULL)
 		return 0;

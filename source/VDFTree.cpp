@@ -383,7 +383,6 @@ bool VDFTree::IsTreeNode(VDFNode *node) {
 void VDFTree::MoveAsChild(VDFNode *parentNode, VDFNode *moveNode)
 {
 	VDFNode *childNode;
-	VDFNode *movePrevious;
 	VDFNode *moveNext;
 	VDFNode *moveParent;	
 
@@ -395,7 +394,6 @@ void VDFTree::MoveAsChild(VDFNode *parentNode, VDFNode *moveNode)
 	if(!IsTreeNode(moveNode) || !IsTreeNode(parentNode))
 		return;
 
-	movePrevious = moveNode->previousNode;
 	moveNext = moveNode->nextNode;
 	moveParent = moveNode->parentNode;
 	childNode = parentNode->childNode;

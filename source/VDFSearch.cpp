@@ -50,12 +50,10 @@ bool VDFSearch::FindNext()
 	if(!*searchBuffer)
 		return false;
 
-	int		level;
 	bool	ignoreTrav;
 
 	VDFNode *anchor;
-	
-	level = 0;
+
 	ignoreTrav = false;
 
 
