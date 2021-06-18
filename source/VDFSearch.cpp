@@ -56,7 +56,6 @@ bool VDFSearch::FindNext()
 
 	ignoreTrav = false;
 
-
 	if(cursor == NULL) {
 		cursor = searchTree->rootNode;
 	}
