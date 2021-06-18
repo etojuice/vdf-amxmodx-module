@@ -6,9 +6,9 @@ MM_ROOT = ../../metamod/metamod
 
 ### EDIT BELOW FOR OTHER PROJECTS ###
 
-OPT_FLAGS = -O3 -funroll-loops -s -pipe -fno-strict-aliasing -fomit-frame-pointer
+OPT_FLAGS = -O3 -funroll-loops -s -pipe -fno-strict-aliasing -fomit-frame-pointer -fvisibility=hidden -fvisibility-inlines-hidden
 DEBUG_FLAGS = -g -ggdb3
-CPP = gcc-4.1
+CPP = gcc
 NAME = vdf
 
 BIN_SUFFIX_32 = amxx_i386.so
@@ -20,13 +20,6 @@ LINK =
 
 INCLUDE = -I. -I$(HLSDK) -I$(HLSDK)/dlls -I$(HLSDK)/engine -I$(HLSDK)/game_shared -I$(HLSDK)/game_shared \
 	-I$(MM_ROOT) -I$(HLSDK)/common -I$(HLSDK)/pm_shared -Isdk
-
-GCC_VERSION := $(shell $(CPP) -dumpversion >&1 | cut -b1)
-
-ifeq "$(GCC_VERSION)" "4"
-        OPT_FLAGS += -fvisibility=hidden -fvisibility-inlines-hidden
-endif
-
 
 ifeq "$(DEBUG)" "true"
 	BIN_DIR = Debug
@@ -45,7 +38,7 @@ ifeq "$(AMD64)" "true"
 else
 	BINARY = $(NAME)_$(BIN_SUFFIX_32)
 	CFLAGS += -DPAWN_CELL_SIZE=32 -DJIT -DASM32
-	OPT_FLAGS += -march=i586
+	OPT_FLAGS += -m32
 endif
 
 OBJ_LINUX := $(OBJECTS:%.cpp=$(BIN_DIR)/%.o)
